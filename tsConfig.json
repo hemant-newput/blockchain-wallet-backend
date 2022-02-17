@@ -1,0 +1,25 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+      "module": "commonjs",
+      "noImplicitReturns": true,
+      "removeComments": false, //this will remove comments from js files
+      "noUnusedLocals": true,
+      "allowJs": true, //moves js files to dist folder
+      "skipLibCheck": true, //this will skip node modules
+      "outDir": "dist", //this will be the output folder
+      "sourceMap": true,
+      "strict": true,
+      "target": "ES2016",
+      "esModuleInterop": true
+    },
+    "allowJs": true, //moves js files to dist folder
+    "exclude": [
+      "./dist"
+    ],
+    "include": [
+      "./src/**/*.ts",
+      "./config/*.ts",
+      "./Server.ts"
+    ] //these files will be included
+  }

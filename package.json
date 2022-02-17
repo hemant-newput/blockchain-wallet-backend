@@ -1,0 +1,33 @@
+{
+  "name": "web3js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && nodemon dist/src/Server.js",
+    "build": "tsc",
+    "build:watch": "tsc -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.9",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.6",
+    "ethereumjs-tx": "^2.1.2",
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "sequelize": "^6.13.0",
+    "sqlite3": "^5.0.2",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4",
+    "web3": "^1.7.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.12"
+  }
+}
